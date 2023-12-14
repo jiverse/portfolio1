@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat&family=Poppins:ital,wght@0,400;1,300&family=Raleway&display=swap');
+:root{
+    --colordark: rgb(3, 0, 94);
+    --colorlight: rgb(184, 217, 254);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(1, 1, 80);
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: rgb(247, 250, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: beige
+    ;
+}
+#check{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: beige;
+    background-color: white;
+}
+.logo img{
+    height: 40pxpx;
+    width: 40px;
+    color: beige;
+}
+.logo ul li a {
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: white;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+   background-color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    background-color : white;
+    color: black;
+}
+
+
+/* BANNER */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+.bannerText{
+    flex: 1;
+}
+.bannerText h1{
+    font-size: 2rem;
+    color: beige;
+    font-style: italic;
+    font-weight: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bannerText h6{
+    
+    color: beige;
+}
+.bannerText p{
+    /* text-align: justify; */
+    /* font-size: 0.9rem; */
+    padding: 10px 0;
+    color: beige;
+    
+}
+.bannerText a{
+    text-decoration: none;
+    background-color: var(--colorlight);
+    padding: 5px 10px;
+    display: inline-flexbox;
+    color: var(--colordark);
+    border: 2px solid var(--colordark);
+    border-radius: 100px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.bannerText a:hover{
+    background-color: var(--colordark);
+    color: var(--colorlight);
+    border: 2px solid var(--colorlight);
+}
+.bannerImg{
+    flex: 1;
+}
+.bannerImg img{
+    width: 100%;
+}
+
+
+
+
+
